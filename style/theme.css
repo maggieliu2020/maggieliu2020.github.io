@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+
+html
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	
+	font-family: "Noto Serif SC", "Times New Roman";
+}
+
+body 
+{
+	background-color: #f6ffb8;
+}
+
+#content 
+{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	padding:10px;
+	text-align: center;
+}
+
+.wood
+{
+	
+}
+
+.paper
+{
+	background-color: white;
+	box-shadow: 5px 5px 5px #777777;
+}
+
+.navbar
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	
+	margin-bottom: 20px;
+	
+	text-align: center;
+}
+
+.navbar li 
+{
+	display: inline;
+	padding: 5px;
+	font-size: 1.4em;
+}
+
+.navbar li a 
+{
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.navbar li a:visited
+{
+	color: inherit;
+	text-decoration: inherit;
+}
+
+#navbar_language
+{
+	float:right;
+}
+
+.poem
+{
+	text-align: center;
+}
+
+#poem_buttons
+{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+#previous_poem
+{
+	cursor: pointer;
+}
+
+#next_poem
+{
+	cursor: pointer;
+}
